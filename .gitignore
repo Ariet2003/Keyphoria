@@ -1,0 +1,20 @@
+# Python-specific
+*.pyc
+*.pyo
+__pycache__/
+
+# Virtual environment
+.venv/
+env/
+
+# Config files with sensitive information
+*.env
+config/*.json
+secrets/*.txt
+
+# IDE-specific
+.idea/
+.vscode/
+
+# Logs
+*.log
